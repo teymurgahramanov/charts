@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   kubeblast:
   - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2025-04-09T13:48:18.808369427Z"
+    description: A Helm chart for Kubernetes
+    digest: 39b0a7d27cb0b9c645b9a3896ae22ed07b69a4496f133b386105b5e0966543a1
+    name: kubeblast
+    type: application
+    urls:
+    - https://teymurgahramanov.github.io/charts/kubeblast-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
     appVersion: 0.0.1
-    created: "2025-04-09T11:49:17.667489021Z"
+    created: "2025-04-09T13:48:18.80812013Z"
     description: A Helm chart for Kubernetes
     digest: 4e731fa7a50f37050b530045b23e3f4ecdca1d7bde213441ee4ef2b807cc287e
     name: kubeblast
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://teymurgahramanov.github.io/charts/kubeblast-0.0.1.tgz
     version: 0.0.1
-generated: "2025-04-09T11:49:17.666896441Z"
+generated: "2025-04-09T13:48:18.807709832Z"

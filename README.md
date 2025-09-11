@@ -1,12 +1,7 @@
-## Add
+## Add & Update
 
 ```console
-helm repo add teymurgahramanov https://teymurgahramanov.github.io/charts
-```
-
-## Update
-```console
-helm repo update teymurgahramanov
+helm repo add teymurgahramanov https://teymurgahramanov.github.io/charts && helm repo update teymurgahramanov
 ```
 
 ## Search

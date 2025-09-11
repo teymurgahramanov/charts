@@ -3,10 +3,10 @@ entries:
   app22:
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2025-09-11T12:48:21.834879481Z"
+    created: "2025-09-11T12:59:20.267406096Z"
     description: App22 - A utility web application for labs and tests (Kubernetes
       ready)
-    digest: 24844313fc6a664487e6d8e34ec7a8e2cd48dc3c8076260c353720ff6879137d
+    digest: a333b73a74ebe40365f4fec28a1b96475ac89d02e0bae16d2b05860d8c0a4a12
     name: app22
     type: application
     urls:
@@ -15,7 +15,7 @@ entries:
   kubeblast:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-09-11T12:48:21.841787937Z"
+    created: "2025-09-11T12:59:20.275618199Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -28,4 +28,4 @@ entries:
     urls:
     - https://teymurgahramanov.github.io/charts/kubeblast-1.0.0.tgz
     version: 1.0.0
-generated: "2025-09-11T12:48:21.834466591Z"
+generated: "2025-09-11T12:59:20.26679375Z"

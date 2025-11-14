@@ -3,7 +3,7 @@ entries:
   app22:
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2025-10-20T14:44:37.752483393Z"
+    created: "2025-11-14T08:52:12.626500355Z"
     description: App22 - A utility web application for labs and tests (Kubernetes
       ready)
     digest: 7fda0e6534410bfd8d5755a50cf8e84344f4549e4347e273dab7a02e1846cb4d
@@ -14,7 +14,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2025-10-20T14:44:37.752221403Z"
+    created: "2025-11-14T08:52:12.626256308Z"
     description: App22 - A utility web application for labs and tests (Kubernetes
       ready)
     digest: 15460e637d77496283208f8e433ee1a2e19ebd1f147e60b1bfe538e521b3d986
@@ -25,8 +25,18 @@ entries:
     version: 1.0.0
   kubeblast:
   - apiVersion: v2
+    appVersion: 1.1.0
+    created: "2025-11-14T08:52:12.63382106Z"
+    description: A Helm chart for Kubernetes
+    digest: f6b7c93b876cb5dad906b0288fb079febcf7bcc80ee65b74324fbce8164ec25c
+    name: kubeblast
+    type: application
+    urls:
+    - https://teymurgahramanov.github.io/charts/kubeblast-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-10-20T14:44:37.760482641Z"
+    created: "2025-11-14T08:52:12.633382939Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -39,4 +49,4 @@ entries:
     urls:
     - https://teymurgahramanov.github.io/charts/kubeblast-1.0.0.tgz
     version: 1.0.0
-generated: "2025-10-20T14:44:37.751737919Z"
+generated: "2025-11-14T08:52:12.625844787Z"

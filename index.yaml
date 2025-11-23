@@ -3,7 +3,7 @@ entries:
   app22:
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2025-11-17T06:05:37.25876674Z"
+    created: "2025-11-23T13:28:33.627648154Z"
     description: App22 - A utility web application for labs and tests (Kubernetes
       ready)
     digest: 7fda0e6534410bfd8d5755a50cf8e84344f4549e4347e273dab7a02e1846cb4d
@@ -14,7 +14,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2025-11-17T06:05:37.258535269Z"
+    created: "2025-11-23T13:28:33.627428063Z"
     description: App22 - A utility web application for labs and tests (Kubernetes
       ready)
     digest: 15460e637d77496283208f8e433ee1a2e19ebd1f147e60b1bfe538e521b3d986
@@ -25,8 +25,18 @@ entries:
     version: 1.0.0
   kubeblast:
   - apiVersion: v2
+    appVersion: 1.1.2
+    created: "2025-11-23T13:28:33.636200993Z"
+    description: A Helm chart for Kubernetes
+    digest: 8e273a897412a266b4d5162473c52b7f967461b0ab332d0c36d8e15fe8b36439
+    name: kubeblast
+    type: application
+    urls:
+    - https://teymurgahramanov.github.io/charts/kubeblast-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
     appVersion: 1.1.1
-    created: "2025-11-17T06:05:37.266786375Z"
+    created: "2025-11-23T13:28:33.635710888Z"
     description: A Helm chart for Kubernetes
     digest: 4ea1eecacfe8b0d4b16f1a31963498f1f6ee263a25cb366ed46432797d90671e
     name: kubeblast
@@ -36,7 +46,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2025-11-17T06:05:37.266267198Z"
+    created: "2025-11-23T13:28:33.635187099Z"
     description: A Helm chart for Kubernetes
     digest: 1659888e68e0765e71a646aa78459da2f227fb892e8461504e147ef0a9197897
     name: kubeblast
@@ -46,7 +56,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-11-17T06:05:37.265768359Z"
+    created: "2025-11-23T13:28:33.634723083Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -59,4 +69,4 @@ entries:
     urls:
     - https://teymurgahramanov.github.io/charts/kubeblast-1.0.0.tgz
     version: 1.0.0
-generated: "2025-11-17T06:05:37.25817605Z"
+generated: "2025-11-23T13:28:33.627031993Z"

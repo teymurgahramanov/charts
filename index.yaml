@@ -3,7 +3,7 @@ entries:
   app22:
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-01-08T07:49:02.558716593Z"
+    created: "2026-03-29T21:07:41.631850261Z"
     description: App22 - A utility web application for labs and tests (Kubernetes
       ready)
     digest: 7fda0e6534410bfd8d5755a50cf8e84344f4549e4347e273dab7a02e1846cb4d
@@ -14,7 +14,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-01-08T07:49:02.558362935Z"
+    created: "2026-03-29T21:07:41.631600785Z"
     description: App22 - A utility web application for labs and tests (Kubernetes
       ready)
     digest: 15460e637d77496283208f8e433ee1a2e19ebd1f147e60b1bfe538e521b3d986
@@ -25,8 +25,23 @@ entries:
     version: 1.0.0
   kubeblast:
   - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2026-03-29T21:07:41.644175369Z"
+    dependencies:
+    - condition: influxdb.enabled
+      name: influxdb
+      repository: https://helm.influxdata.com/
+      version: 4.12.5
+    description: A Helm chart for Kubernetes
+    digest: 854173f4fad8100a0110978b05aec74f481c8764e7255ecd3082bfed3801765d
+    name: kubeblast
+    type: application
+    urls:
+    - https://teymurgahramanov.github.io/charts/kubeblast-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v2
     appVersion: 1.2.0
-    created: "2026-01-08T07:49:02.569568077Z"
+    created: "2026-03-29T21:07:41.642695776Z"
     description: A Helm chart for Kubernetes
     digest: 4c4a842aaf3ddb471c9fac7e0e9659917f5de3e7038881123f5df475e907f856
     name: kubeblast
@@ -36,7 +51,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2026-01-08T07:49:02.569062286Z"
+    created: "2026-03-29T21:07:41.642199088Z"
     description: A Helm chart for Kubernetes
     digest: bf2c5e5258246bdf2ff5d38333f4c4ec404fb2efadfb733024aad77085797c44
     name: kubeblast
@@ -46,7 +61,7 @@ entries:
     version: 1.1.5
   - apiVersion: v2
     appVersion: 1.1.4
-    created: "2026-01-08T07:49:02.568548911Z"
+    created: "2026-03-29T21:07:41.641715716Z"
     description: A Helm chart for Kubernetes
     digest: 0388f891c3189a359f3479fe94bc8fdbf58d1c1a7e52ee1b8847b7649f3a5946
     name: kubeblast
@@ -56,7 +71,7 @@ entries:
     version: 1.1.4
   - apiVersion: v2
     appVersion: 1.1.3
-    created: "2026-01-08T07:49:02.567971857Z"
+    created: "2026-03-29T21:07:41.641167983Z"
     description: A Helm chart for Kubernetes
     digest: 8fbd4837873336e7099d8ef5a52d24628822e3efddea796873e5f0f5e907dba1
     name: kubeblast
@@ -66,7 +81,7 @@ entries:
     version: 1.1.3
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2026-01-08T07:49:02.567451378Z"
+    created: "2026-03-29T21:07:41.63971076Z"
     description: A Helm chart for Kubernetes
     digest: 8e273a897412a266b4d5162473c52b7f967461b0ab332d0c36d8e15fe8b36439
     name: kubeblast
@@ -76,7 +91,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2026-01-08T07:49:02.56694184Z"
+    created: "2026-03-29T21:07:41.639215856Z"
     description: A Helm chart for Kubernetes
     digest: 4ea1eecacfe8b0d4b16f1a31963498f1f6ee263a25cb366ed46432797d90671e
     name: kubeblast
@@ -86,7 +101,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-01-08T07:49:02.566421972Z"
+    created: "2026-03-29T21:07:41.638731461Z"
     description: A Helm chart for Kubernetes
     digest: 1659888e68e0765e71a646aa78459da2f227fb892e8461504e147ef0a9197897
     name: kubeblast
@@ -96,7 +111,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-01-08T07:49:02.565943873Z"
+    created: "2026-03-29T21:07:41.638258698Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -109,4 +124,4 @@ entries:
     urls:
     - https://teymurgahramanov.github.io/charts/kubeblast-1.0.0.tgz
     version: 1.0.0
-generated: "2026-01-08T07:49:02.557869507Z"
+generated: "2026-03-29T21:07:41.631193244Z"

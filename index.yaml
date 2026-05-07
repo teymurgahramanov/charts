@@ -3,7 +3,7 @@ entries:
   app22:
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-05-01T12:25:28.533050509Z"
+    created: "2026-05-07T06:20:16.903516308Z"
     description: App22 - A utility web application for labs and tests (Kubernetes
       ready)
     digest: 7fda0e6534410bfd8d5755a50cf8e84344f4549e4347e273dab7a02e1846cb4d
@@ -14,7 +14,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-05-01T12:25:28.532812318Z"
+    created: "2026-05-07T06:20:16.903304735Z"
     description: App22 - A utility web application for labs and tests (Kubernetes
       ready)
     digest: 15460e637d77496283208f8e433ee1a2e19ebd1f147e60b1bfe538e521b3d986
@@ -26,7 +26,7 @@ entries:
   kubeblast:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-05-01T12:25:28.545356975Z"
+    created: "2026-05-07T06:20:16.915983987Z"
     dependencies:
     - condition: influxdb.enabled
       name: influxdb
@@ -41,7 +41,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2026-05-01T12:25:28.54387954Z"
+    created: "2026-05-07T06:20:16.914520856Z"
     description: A Helm chart for Kubernetes
     digest: 4c4a842aaf3ddb471c9fac7e0e9659917f5de3e7038881123f5df475e907f856
     name: kubeblast
@@ -51,7 +51,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2026-05-01T12:25:28.543381729Z"
+    created: "2026-05-07T06:20:16.913665744Z"
     description: A Helm chart for Kubernetes
     digest: bf2c5e5258246bdf2ff5d38333f4c4ec404fb2efadfb733024aad77085797c44
     name: kubeblast
@@ -61,7 +61,7 @@ entries:
     version: 1.1.5
   - apiVersion: v2
     appVersion: 1.1.4
-    created: "2026-05-01T12:25:28.542115778Z"
+    created: "2026-05-07T06:20:16.912880273Z"
     description: A Helm chart for Kubernetes
     digest: 0388f891c3189a359f3479fe94bc8fdbf58d1c1a7e52ee1b8847b7649f3a5946
     name: kubeblast
@@ -71,7 +71,7 @@ entries:
     version: 1.1.4
   - apiVersion: v2
     appVersion: 1.1.3
-    created: "2026-05-01T12:25:28.541643594Z"
+    created: "2026-05-07T06:20:16.912379052Z"
     description: A Helm chart for Kubernetes
     digest: 8fbd4837873336e7099d8ef5a52d24628822e3efddea796873e5f0f5e907dba1
     name: kubeblast
@@ -81,7 +81,7 @@ entries:
     version: 1.1.3
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2026-05-01T12:25:28.541121418Z"
+    created: "2026-05-07T06:20:16.911891214Z"
     description: A Helm chart for Kubernetes
     digest: 8e273a897412a266b4d5162473c52b7f967461b0ab332d0c36d8e15fe8b36439
     name: kubeblast
@@ -91,7 +91,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2026-05-01T12:25:28.540644084Z"
+    created: "2026-05-07T06:20:16.911364144Z"
     description: A Helm chart for Kubernetes
     digest: 4ea1eecacfe8b0d4b16f1a31963498f1f6ee263a25cb366ed46432797d90671e
     name: kubeblast
@@ -101,7 +101,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-05-01T12:25:28.540111929Z"
+    created: "2026-05-07T06:20:16.910886326Z"
     description: A Helm chart for Kubernetes
     digest: 1659888e68e0765e71a646aa78459da2f227fb892e8461504e147ef0a9197897
     name: kubeblast
@@ -111,7 +111,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-05-01T12:25:28.539665934Z"
+    created: "2026-05-07T06:20:16.910411082Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -127,9 +127,9 @@ entries:
   kubeping:
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-05-01T12:25:28.545972194Z"
+    created: "2026-05-07T06:20:16.916410239Z"
     description: A Helm chart for KubePing
-    digest: ece10382d970309da9c28c68bf08e469192fb7e4e1654e22b8b8476b7034d866
+    digest: d96ad61a7c9fc853b4c6ee7f61461449930670ca6fbeee83214928ca4380222e
     maintainers:
     - email: teymur_gahramanov@outlook.com
       name: Teymur Gahramanov
@@ -140,4 +140,4 @@ entries:
     urls:
     - https://teymurgahramanov.github.io/charts/kubeping-1.1.0.tgz
     version: 1.1.0
-generated: "2026-05-01T12:25:28.532465025Z"
+generated: "2026-05-07T06:20:16.902816657Z"

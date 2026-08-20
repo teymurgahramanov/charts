@@ -3,7 +3,7 @@ entries:
   app22:
   - apiVersion: v2
     appVersion: 2.0.1
-    created: "2026-08-20T12:15:02.653895456Z"
+    created: "2026-08-20T12:36:36.215672707Z"
     description: App22 - A utility web application for labs and tests (Kubernetes
       ready)
     digest: 4a437da0b8e7a07aa7e705e00e34a55be021ac991a14c93928a57829d63969cd
@@ -14,7 +14,7 @@ entries:
     version: 2.0.1
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2026-08-20T12:15:02.653759897Z"
+    created: "2026-08-20T12:36:36.215502925Z"
     description: App22 - A utility web application for labs and tests (Kubernetes
       ready)
     digest: 6510110454a54537db35e7e5740f218ec5aba36f5f85604e82c4a0f61c1b3c3a
@@ -25,7 +25,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-08-20T12:15:02.653618217Z"
+    created: "2026-08-20T12:36:36.215325218Z"
     description: App22 - A utility web application for labs and tests (Kubernetes
       ready)
     digest: 7fda0e6534410bfd8d5755a50cf8e84344f4549e4347e273dab7a02e1846cb4d
@@ -36,7 +36,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: v2.0.0
-    created: "2026-08-20T12:15:02.653438552Z"
+    created: "2026-08-20T12:36:36.2151449Z"
     description: App22 - A utility web application for labs and tests (Kubernetes
       ready)
     digest: 15460e637d77496283208f8e433ee1a2e19ebd1f147e60b1bfe538e521b3d986
@@ -48,7 +48,7 @@ entries:
   kubeblast:
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2026-08-20T12:15:02.669581171Z"
+    created: "2026-08-20T12:36:36.234228481Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -67,7 +67,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-08-20T12:15:02.662790786Z"
+    created: "2026-08-20T12:36:36.225944292Z"
     dependencies:
     - condition: influxdb.enabled
       name: influxdb
@@ -82,7 +82,7 @@ entries:
     version: 1.3.0
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2026-08-20T12:15:02.66180192Z"
+    created: "2026-08-20T12:36:36.224718389Z"
     description: A Helm chart for Kubernetes
     digest: 4c4a842aaf3ddb471c9fac7e0e9659917f5de3e7038881123f5df475e907f856
     name: kubeblast
@@ -92,7 +92,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.1.5
-    created: "2026-08-20T12:15:02.661407108Z"
+    created: "2026-08-20T12:36:36.224342899Z"
     description: A Helm chart for Kubernetes
     digest: bf2c5e5258246bdf2ff5d38333f4c4ec404fb2efadfb733024aad77085797c44
     name: kubeblast
@@ -102,7 +102,7 @@ entries:
     version: 1.1.5
   - apiVersion: v2
     appVersion: 1.1.4
-    created: "2026-08-20T12:15:02.661044114Z"
+    created: "2026-08-20T12:36:36.223945047Z"
     description: A Helm chart for Kubernetes
     digest: 0388f891c3189a359f3479fe94bc8fdbf58d1c1a7e52ee1b8847b7649f3a5946
     name: kubeblast
@@ -112,7 +112,7 @@ entries:
     version: 1.1.4
   - apiVersion: v2
     appVersion: 1.1.3
-    created: "2026-08-20T12:15:02.659971506Z"
+    created: "2026-08-20T12:36:36.223583836Z"
     description: A Helm chart for Kubernetes
     digest: 8fbd4837873336e7099d8ef5a52d24628822e3efddea796873e5f0f5e907dba1
     name: kubeblast
@@ -122,7 +122,7 @@ entries:
     version: 1.1.3
   - apiVersion: v2
     appVersion: 1.1.2
-    created: "2026-08-20T12:15:02.6596687Z"
+    created: "2026-08-20T12:36:36.223210233Z"
     description: A Helm chart for Kubernetes
     digest: 8e273a897412a266b4d5162473c52b7f967461b0ab332d0c36d8e15fe8b36439
     name: kubeblast
@@ -132,7 +132,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2026-08-20T12:15:02.659346275Z"
+    created: "2026-08-20T12:36:36.222792831Z"
     description: A Helm chart for Kubernetes
     digest: 4ea1eecacfe8b0d4b16f1a31963498f1f6ee263a25cb366ed46432797d90671e
     name: kubeblast
@@ -142,7 +142,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-08-20T12:15:02.659029393Z"
+    created: "2026-08-20T12:36:36.222364992Z"
     description: A Helm chart for Kubernetes
     digest: 1659888e68e0765e71a646aa78459da2f227fb892e8461504e147ef0a9197897
     name: kubeblast
@@ -152,7 +152,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2026-08-20T12:15:02.658739599Z"
+    created: "2026-08-20T12:36:36.221062285Z"
     dependencies:
     - condition: mongodb.enabled
       name: mongodb
@@ -168,9 +168,9 @@ entries:
   kubeping:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2026-08-20T12:15:02.670440748Z"
+    created: "2026-08-20T12:36:36.235325403Z"
     description: A Helm chart for KubePing
-    digest: 64916c5c9d6fb1a38484ba3bb3aad35fed7f751e8b8db0881197098fd5bea57a
+    digest: 596cf169aec082ecd565c898391583b11046bda0b958cb96a6cc6a6849e7ef0c
     maintainers:
     - email: teymur_gahramanov@outlook.com
       name: Teymur Gahramanov
@@ -183,7 +183,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: 1.1.1
-    created: "2026-08-20T12:15:02.670175164Z"
+    created: "2026-08-20T12:36:36.234974156Z"
     description: A Helm chart for KubePing
     digest: 7460f3f54374a7f2c5f7041a83eb6ef44fcdd8ac7fe1db089d3b9edb8b968b92
     maintainers:
@@ -198,7 +198,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.1.0
-    created: "2026-08-20T12:15:02.66990346Z"
+    created: "2026-08-20T12:36:36.234629776Z"
     description: A Helm chart for KubePing
     digest: d96ad61a7c9fc853b4c6ee7f61461449930670ca6fbeee83214928ca4380222e
     maintainers:
@@ -211,4 +211,4 @@ entries:
     urls:
     - https://teymurgahramanov.github.io/charts/kubeping-1.1.0.tgz
     version: 1.1.0
-generated: "2026-08-20T12:15:02.653137072Z"
+generated: "2026-08-20T12:36:36.214770884Z"
